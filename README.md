@@ -6,18 +6,25 @@ What works: everything except audio on fm radio
 
 How to install:
 
-Install lineage 14.1 from the release.
+1) Install lineage 14.1 from the release.<br/>
+Note: you have to install the lineage 14.1 in sailfish release and not the one in xda, otherwise the hardware that has text relocation libs e.g camera and audio will not work!<br/>
+2) Install sailfishos zip.<br/>
+3) Reboot
 
-Note: you have to install the lineage 14.1 in sailfish release and not the one in xda, otherwise the hardware that has text relocation libs e.g camera and audio will not work!
+How to install OTAs for Sailfish 3.0 and higher:
 
-Install sailfishos zip.
+1) Open terminal and log in as root by running "devel-su" command. You can set root password in "Settings app -> Developer tools"<br/>
+2) Run zypper ref to update packages metadata<br/>
+3) Run zypper dup to install device and sailfish OTA updates<br/>
 
-Reboot
+How to run SailfishOS as secondary ROM with multirom:
 
-How to install OTAs for Sailfish <= 3.0:
+1) Download multirom zip and recovery from latest release<br/>
+2) Install multirom recovery with odin (or unpack the tar and install the img) and multirom zip with recovery<br/>
+3) Reboot to recovery, go in "multirom menu -> Add ROM -> SailfishOS" and select "sailfishos's" lineageos 14.1 zip as "CyanogenMod ZIP file" and sailfishos zip as "Rootfs ZIP file"
+4) Proceed to their installation
+5) Move	/sdcard/MultiROM/multirom/roms/YOUR_SAILFISH_ROM_NAME/data/.stowaways directory in /data. After that, make sure you have /data/.stowaways/sailfishos/... 
+6) Inject boot sector from multirom menu in recovery
 
-1) Open terminal and log in as root by running "devel-su" command. You can set root password in settings-> deve
-2) Run zypper ref to update packages metadata
-3) Run zypper dup to install device and sailfish OTA updates
-
-TODO: upload multirom with sailfish support and his instructions
+Changelog<br/>
+https://github.com/DeadSquirrel01/sailfishos-a5ultexx-releases/blob/master/changelog.txt

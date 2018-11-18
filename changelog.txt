@@ -1,0 +1,8 @@
+All releases include latest updates from SailfishOS
+
+2nd release: 20181114
+First SailfishOS 3.0 release (3.0.0.8)
+Add OTAs support (Read README for instructions on how to install them)
+
+1st release: 20180723
+First SailfishOS 2.2 release (2.2.0.29)
