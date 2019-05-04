@@ -1,5 +1,11 @@
 All releases include latest updates from SailfishOS
 
+3rd release: 20190504
+Update sailfish to 3.0.2.8
+64 bit binder support in lineage 14.1, and sailfish (userspace and kernel)
+LineageOS 14.1 can now flashed on any A5 variant (support for all variants)
+Minor changes
+
 2nd release: 20181114
 First SailfishOS 3.0 release (3.0.0.8)
 Add OTAs support (Read README for instructions on how to install them)
