@@ -1,5 +1,10 @@
 All releases include latest updates from SailfishOS
 
+4th release: 20190609
+Update sailfish to 3.0.3.10
+Fix missing caller number in voicecalls
+Fix magnetometer
+
 3rd release: 20190504
 Update sailfish to 3.0.2.8
 64 bit binder support in lineage 14.1, and sailfish (userspace and kernel)
