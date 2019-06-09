@@ -14,8 +14,19 @@ Note: you have to install the lineage 14.1 in sailfish release and not the one i
 How to install OTAs for Sailfish 3.0 and higher:
 
 1) Open terminal and log in as root by running "devel-su" command. You can set root password in "Settings app -> Developer tools"<br/>
-2) Run zypper ref to update packages metadata<br/>
-3) Run zypper dup to install device and sailfish OTA updates<br/>
+2) Run "zypper ref" to update packages metadata<br/>
+3) Run "zypper dup" to install device and sailfish OTA updates<br/>
+
+How to update Sailfish 3.0 and higher to next release:
+
+1) Open terminal and log in as root by running "devel-su" command. You can set root password in "Settings app -> Developer tools"<br/>
+2) Run "ssu re NEWER_RELEASE" i.e. "ssu re 3.0.3.10" to upgrade repos to 3.0.3.10<br/>
+3) Run "version --dup" to upgrade the system to the release you specified with "ssu re" command
+4) Reboot
+
+<b>NOTE</b>:<br/>
+To upgrade sailfish, don't install a newer SailfishOS zip, follow the instructions above, otherwise you will lose all your personal data.<br/>
+SailfishOS zips are for users who don't have it installed and installing newer ones doesn't have to be taken as a way to upgrade the system, like in android ROMs
 
 How to run SailfishOS as secondary ROM with multirom:
 
