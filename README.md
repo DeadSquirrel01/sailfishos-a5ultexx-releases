@@ -26,7 +26,8 @@ How to update Sailfish 3.0 and higher to next release:
 
 <b>NOTE</b>:<br/>
 To upgrade sailfish, don't install a newer SailfishOS zip, follow the instructions above, otherwise you will lose all your personal data.<br/>
-SailfishOS zips are for users who don't have it installed and installing newer ones doesn't have to be taken as a way to upgrade the system, like in android ROMs
+SailfishOS zips are for users who don't have it installed and installing newer ones doesn't have to be taken as a way to upgrade the system, like in android ROMs.<br/>
+While you don't have to upgrade the system by installing newer sailfish zips, it is recommended to update sailfishos' lineage 14.1 to latest release's one
 
 How to run SailfishOS as secondary ROM with multirom:
 
