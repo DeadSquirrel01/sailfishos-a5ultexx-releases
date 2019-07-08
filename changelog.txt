@@ -1,5 +1,8 @@
 All releases include latest updates from SailfishOS
 
+4th release (update): 20190708
+Replace mm ril blobs with lp ones to fix RIL in non-fu variants by installing ril-fix zips
+
 4th release: 20190707
 Use source-built audio (lineage-14.1)
 Add FM radio support
